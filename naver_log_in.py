@@ -11,6 +11,7 @@ def nid_login():
     driver.implicitly_wait(3)
 
     while True:
+        
         tag_id = driver.find_element_by_name('id')
         tag_pw = driver.find_element_by_name('pw')
 
